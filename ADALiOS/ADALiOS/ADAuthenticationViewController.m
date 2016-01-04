@@ -43,6 +43,9 @@
     {
         [self.navigationController.navigationBar setTintColor:[UIColor darkGrayColor]];
     }
+    
+    // Added by OB to hide navigation bar
+    self.navigationController.navigationBarHidden = YES;
 }
 
 - (void)viewDidUnload
